@@ -1,0 +1,23 @@
+{
+  "name": "is-type",
+  "version": "1.0.0",
+  "description": "check js type",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlisliu/is-type.git"
+  },
+  "keywords": [
+    "javascript",
+    "type"
+  ],
+  "author": "Carlis Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlisliu/is-type/issues"
+  },
+  "homepage": "https://github.com/carlisliu/is-type#readme"
+}
