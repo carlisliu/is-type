@@ -1,6 +1,6 @@
 {
-  "name": "is-type",
-  "version": "1.0.0",
+  "name": "js-is-type",
+  "version": "2.0.0",
   "description": "check js type",
   "main": "index.js",
   "scripts": {
