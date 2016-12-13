@@ -5,7 +5,7 @@ var isType = exports.isType = function isType(type) {
         }
         return Object.prototype.toString.call(arg) === "[object " + type + "]";
     }
-}
+};
 
 exports.isString = isType('String');
 exports.isArray = isType('Array');
