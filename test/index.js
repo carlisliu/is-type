@@ -33,4 +33,28 @@ describe('isType', function() {
             assert.equal(true, isType.isFunction(function() {}));
         });
     });
+
+    describe('#isBoolean()', function() {
+        it('should return true', function() {
+            assert.equal(true, isType.isBoolean(true));
+        });
+    });
+
+    describe('#isNumber()', function() {
+        it('should return true', function() {
+            assert.equal(true, isType.isNumber(1));
+        });
+    });
+
+    describe('#isUndefined()', function() {
+        it('should return true', function() {
+            assert.equal(true, isType.isUndefined(undefined));
+        });
+    });
+
+    describe('#isNull()', function() {
+        it('should return true', function() {
+            assert.equal(true, isType.isNull(null));
+        });
+    });
 });

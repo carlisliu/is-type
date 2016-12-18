@@ -7,7 +7,6 @@ var isType = exports.isType = function isType(type) {
     }
 };
 
-exports.isString = isType('String');
-exports.isArray = isType('Array');
-exports.isFunction = isType('Function');
-exports.isObject = isType('Object');
+'String Array Function Object Boolean Number Null Undefined'.split(/\s+/).forEach(function(type) {
+    exports['is' + type] = isType(type);
+});
