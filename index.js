@@ -11,3 +11,7 @@ export var isString = isType('String');
 export var isArray = isType('Array');
 export var isFunction = isType('Function');
 export var isObject = isType('Object');
+export var isBoolean = isType('Boolean');
+export var isNumber = isType('Number');
+export var isUndefined = isType('Undefined');
+export var isNull = isType('Null');
