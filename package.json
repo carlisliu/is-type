@@ -14,7 +14,10 @@
     "javascript",
     "type"
   ],
-  "author": "Carlis Liu",
+  "author": {
+    "name": "Carlis Liu",
+    "email": "carlisliu@live.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/carlisliu/is-type/issues"
