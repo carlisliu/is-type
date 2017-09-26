@@ -1,7 +1,7 @@
 is-type
 =========
 
-Check js type.
+Check javascript data type.
 
 Installation
 ============
